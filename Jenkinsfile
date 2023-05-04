@@ -5,7 +5,7 @@ pipeline{
 		stage('Clone'){
 			steps{
 				sh '''
-                       			test
+                       			asdf
                     		'''
 			}
 		}
