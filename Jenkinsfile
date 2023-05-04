@@ -4,7 +4,9 @@ pipeline{
 	stages{
 		stage('Clone'){
 			steps{
-				sh 'test'
+				sh '''
+                       			test
+                    		'''
 			}
 		}
 
